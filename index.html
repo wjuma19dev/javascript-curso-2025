@@ -20,7 +20,18 @@
         </div>
       </div>
     </div>
-
-    <script src="./Mediador.js"></script>
-  </body>
+    <!-- 
+      Using <script defer src=...
+      Would loading the two scripts inside <head> with the attribute defer have the same effect as having the scripts before </body>?
+        Once again I assume this would slow up HTML4 browsers.
+        Using <script async src=...
+        If I have two scripts with async enabled
+        
+        Would they download at the same time?
+        Or one at a time with the rest of the page?
+        Does the order of scripts then become a problem? For example, one script depends on the other so if one downloads faster, the second one might not execute correctly, etc.
+        Finally am I best to leave things as they are until HTML5 is more commonly used?
+        -->
+        <script src="./performance-y-seguridad/PerformanceNow.js" defer></script>
+      </body>
 </html>

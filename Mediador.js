@@ -52,7 +52,7 @@ pablo.oferta(600, pablo)
 
 juan.vendido(pablo)
 
-
 console.log(juan)
 console.log(pablo)
 console.log(maria)
+// console.log(Subasta())
